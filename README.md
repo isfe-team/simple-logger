@@ -1,8 +1,10 @@
-# logger
+# @isfe/logger
 
-## author
+## Author
 
-@bqliu & @isfe
+[@bqliu](https://github.com/bq-hentai)
+
+[@isfe](https://github.com/fe-sm)
 
 ## Purpose
 
@@ -16,20 +18,24 @@ This library is simple but customizable.
 
 ## Usage
 
-> This module hasn't been published to npm repo now.
+### Install
 
-### simple usage
+```shell
+$ npm i -S @isfe/logger
+```
+
+### Simple usage
 
 ```javascript
-const logger = require('./dist/logger.umd')
+const logger = require('@isfe/logger')
 
 ;[ 'DEBUG', 'INFO', 'WARN', 'ERROR' ].forEach(levelName => logger[levelName]('module', 'content'))
 ```
 
-### customize
+### Customize example
 
 ```javascript
-const logger = require('./dist/logger.umd')
+const logger = require('@isfe/logger')
 
 const logFn = function (time, level, module, content) {
   (new Image()).src = `http://example.com/log?${content}`

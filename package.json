@@ -1,6 +1,6 @@
 {
   "name": "@isfe/logger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple logger for common usage.",
   "main": "index.js",
   "scripts": {
