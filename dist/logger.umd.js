@@ -159,9 +159,9 @@
     }
   };
 
-  logger.addCoreLogger('localConsole', localConsoleCoreLogger)
+  logger.addCoreLogger('localConsole', localConsoleCoreLogger);
 
-  ;levels.forEach(function (level) {
+  levels.forEach(function (level) {
     logger[level] = function (module, content) {
       logger.getCoreLogger('localConsole')[level].apply(this, arguments);
     };

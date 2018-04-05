@@ -2,9 +2,7 @@
 
 ## Author
 
-[@bqliu](https://github.com/bq-hentai)
-
-[@isfe](https://github.com/fe-sm)
+[@bqliu](https://github.com/bq-hentai) [@isfe](https://github.com/fe-sm)
 
 ## Purpose
 

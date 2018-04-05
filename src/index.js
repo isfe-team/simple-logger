@@ -34,7 +34,7 @@ const logger = {
 
 logger.addCoreLogger('localConsole', localConsoleCoreLogger)
 
-;levels.forEach((level) => {
+levels.forEach((level) => {
   logger[level] = function (module, content) {
     logger.getCoreLogger('localConsole')[level].apply(this, arguments)
   }
