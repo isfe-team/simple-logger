@@ -1,6 +1,6 @@
 {
   "name": "@isfe/logger",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple logger for common usage.",
   "main": "index.js",
   "scripts": {
@@ -12,10 +12,17 @@
   "keywords": [
     "isfe", "Log"
   ],
-  "author": "bq-hentai",
+  "author": {
+    "name": "isfe-team",
+    "email": "isfe@iflytek.com"
+  },
   "license": "MIT",
   "devDependencies": {
     "rollup": "^0.57.1",
     "rollup-plugin-buble": "^0.19.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fe-sm/simple-logger.git"
   }
 }
